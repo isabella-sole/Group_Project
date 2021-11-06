@@ -1,0 +1,21 @@
+#non usare tab
+
+#tracking_lidar: #nome del package
+#trackin_lidar: #nome del nodo  
+#ros__parameters: 
+                       
+calib_row: 3
+calib_coloumn: 4
+calib_00: -88.2531380753758
+calib_01: -43.1846078229011
+calib_02: 0.459515829876897
+calib_03: -3.12610728273129
+calib_10: -2.06416346196067
+calib_11: -35.7822159197789
+calib_12: 82.8267143687491
+calib_13: 10.9572874052925
+calib_20: -0.00429472961064767
+calib_21: -0.0891955373177249
+calib_22: 0.00530974195190855
+calib_23: 0.000748756467146852
+

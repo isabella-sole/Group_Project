@@ -1,0 +1,23 @@
+#non usare tab
+
+#tracking_lidar: #nome del package
+#trackin_lidar: #nome del nodo  
+#ros__parameters: 
+
+
+bb_row: 4
+bb_coloumn: 2
+bb_00: 20
+bb_01: 20
+bb_10: 1000
+bb_11: 20
+bb_20: 1000
+bb_21: 750
+bb_30: 20
+bb_31: 750
+
+
+
+
+
+

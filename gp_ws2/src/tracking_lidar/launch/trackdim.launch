@@ -1,0 +1,25 @@
+<launch>
+
+<node pkg="rosbag" name="play" type="play" args="-r 1 -s 55 -u 240 /home/isabella/Desktop/gp_ws2/record2.bag">
+  </node>
+
+<!--
+<node pkg="rosbag" name="play" type="play" args=" /home/mina/catkin_ws/back_approach.bag">
+  </node>
+-->
+
+<node pkg="tracking_lidar" name="trackin_lidar" type="track_dim_node" output= "screen">
+<rosparam file="/home/isabella/Desktop/gp_ws2/src/tracking_lidar/cfg/calib.yaml" command="load"/>
+<rosparam file="/home/isabella/Desktop/gp_ws2/src/tracking_lidar/cfg/bb.yaml" command="load"/>
+ </node>
+<rosparam file="/home/isabella/Desktop/gp_ws2/src/tracking_lidar/cfg/path_json.yaml" command="load"/>
+
+<node pkg="image_view" name="image_view1" type="image_view">
+   <remap from="image" to="image"/>
+  </node> 
+
+<node name="modelvisualisation" pkg="rviz" type="rviz" output="screen"/>
+
+</launch>
+ 
+
