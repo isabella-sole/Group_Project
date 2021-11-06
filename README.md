@@ -1,4 +1,5 @@
 **Obstacle detection and tracking in maritime environments**
+
 *For further information about the project read the "gp_report.pdf" document.*
 
 *1. Motivations and general objectives:*
