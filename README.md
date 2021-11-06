@@ -55,3 +55,10 @@ and in a second terminal launch the code once inside the ws:
 
 $ roslaunch tracking_lidar trackdim.launch
 
+
+**Authors**
+
+Isabella-Sole Bisio: *bisioisabellasole@gmail.com*
+
+Serena Roncagliolo: *serena.roncagliolo@gmail.com*
+
